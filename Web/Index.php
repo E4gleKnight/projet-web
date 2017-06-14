@@ -6,7 +6,7 @@ if (isset($_GET["controller"])) {
 }else{
 	$controllerName = "accueil";
 }
-
+ 
 //Définition du dossier racine du projet
 //Ici le dossier WEB
 define('ROOT_PATH', dirname(__DIR__));
