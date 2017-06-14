@@ -1,7 +1,16 @@
 <?php
-$pageTitle = "Bienvenue sur mon site";
-$content = "<h1>Accueil</h1>";
 
-require ROOT_PATH."/src/views/gabarit.php";
+$pageTitle = "Bienvenue sur mon site";
+$now = date('l jS \of F Y h:i:s A');
+
+renderView('accueil',
+    [
+        'pageTitle' => "Bienvenue sur mon site",
+        'now' => date('l jS \of F Y h:i:s A')
+        ]
+);
+
+
+
 
 ?>

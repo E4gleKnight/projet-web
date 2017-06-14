@@ -11,6 +11,9 @@ if (isset($_GET["controller"])) {
 //Ici le dossier WEB
 define('ROOT_PATH', dirname(__DIR__));
 
+//Inclusion des dépendances du projet
+require ROOT_PATH.'/src/framework/mvc.php';
+
 //Définition du chemin du controller
 $controllerPath = ROOT_PATH.'/src/controllers/'.$controllerName.'.php';
 //Test de l'existence du controller
@@ -20,4 +23,5 @@ if (! file_exists($controllerPath)) {
 }
 //Execution du controlleur
 require $controllerPath;
+
 ?>
