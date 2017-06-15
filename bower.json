@@ -1,0 +1,22 @@
+{
+  "name": "Projet Web",
+  "homepage": "https://github.com/E4gleKnight/projet-web",
+  "authors": [
+    "email <email@email.fr>"
+  ],
+  "description": "un projet pour une première approche du développement Web moderne",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "web/dependencies",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
