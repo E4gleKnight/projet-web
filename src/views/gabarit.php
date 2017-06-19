@@ -22,7 +22,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Mon Projet Web</a>
+            <a class="navbar-brand" href="/?controller=accueil">Accueil</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -32,7 +32,24 @@
                 <li><a href="#">Link</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="/?controller=login-admin">Accès Admin</a></li>
+
+                <?php
+                //Récupération du rôle de l'utilisateur
+                $role = isset($_SESSION["role"])?$_SESSION["role"]:"";
+                //Récupération du nom de l'utilisateur
+                $username = isset($_SESSION["userName"])?$_SESSION["userName"]:"Invité";
+                ?>
+                <!--Dire bonjour à l'utilisateur -->
+                <li class ="navbar-text">Bonjour <?=$username?></li>
+                <!-- Affichage du lien connexion/deconnection -->
+                <?php if($role == "admin"): ?>
+                <li><a href="/?controller=admin-logout">Déconnexion</a> </li>
+                <?php else : ?>
+                    <li>
+                        <a href="/?controller=login-admin">Connexion</a>
+                    </li>
+                <?php endif; ?>
+
             </ul>
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
