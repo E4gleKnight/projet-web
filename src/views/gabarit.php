@@ -29,7 +29,7 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
                 <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-                <li><a href="#">Link</a></li>
+                <li><a href="/?controller=matieres">Matière</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
 
@@ -54,6 +54,20 @@
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
 </nav>
+<!-- affichage des messages flash -->
+
+<?php if (isset($_SESSION["flash"])):?>
+<div class="row">
+    <div class="col-md-6 col-md-offset-2 alert alert-info">
+        <?php
+        //affichage du message
+        echo $_SESSION["flash"];
+        //suppression du message
+        unset($_SESSION["flash"]);
+        ?>
+    </div>
+</div>
+<?php endif; ?>
     <!--Contenu de l'application-->
     <section class="row">
         <div class="col-md-8 col-md-offset-2">
