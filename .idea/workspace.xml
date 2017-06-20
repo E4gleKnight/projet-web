@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69ec421d-7036-48cf-a5f1-c10a65951c99" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/controllers/accueil-admin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/controllers/admin-logout.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/data/competences.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/views/accueil-admin.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Web/Index.php" afterPath="$PROJECT_DIR$/Web/Index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controllers/login-admin.php" afterPath="$PROJECT_DIR$/src/controllers/login-admin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/framework/mvc.php" afterPath="$PROJECT_DIR$/src/framework/mvc.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/gabarit.php" afterPath="$PROJECT_DIR$/src/views/gabarit.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -37,8 +29,8 @@
       <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Config/config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+            <state relative-caret-position="51">
+              <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -54,11 +46,49 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mvc.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="mvc.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/framework/mvc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="583">
+            <state relative-caret-position="646">
               <caret line="38" column="1" lean-forward="true" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_PDO.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/controllers/test_PDO.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="697">
+              <caret line="44" column="47" lean-forward="true" selection-start-line="44" selection-start-column="47" selection-end-line="44" selection-end-column="47" />
+              <folding>
+                <marker date="1497945498700" expanded="true" signature="91:114" ph="SELECT * FRO... personnes" />
+                <marker date="1497945498700" expanded="true" signature="629:684" ph="delete from " />
+                <marker date="1497945498700" expanded="true" signature="836:875" ph="delete from " />
+                <marker date="1497945498700" expanded="true" signature="1021:1060" ph="delete from " />
+                <marker date="1497945498700" expanded="true" signature="1195:1236" ph="delete from " />
+                <marker date="1497945498700" expanded="true" signature="1628:1672" ph="select * fro... personnes" />
+                <marker date="1497945498700" expanded="true" signature="1628:1675" ph="select * fro... personnes" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="matieres.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/controllers/matieres.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="matieres.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/views/matieres.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -90,9 +120,10 @@
         <option value="$PROJECT_DIR$/src/controllers/quiz.php" />
         <option value="$PROJECT_DIR$/src/data/quizz.json" />
         <option value="$PROJECT_DIR$/src/views/quizz.php" />
-        <option value="$PROJECT_DIR$/src/Config/config.php" />
         <option value="$PROJECT_DIR$/Web/Index.php" />
         <option value="$PROJECT_DIR$/src/framework/mvc.php" />
+        <option value="$PROJECT_DIR$/src/Config/config.php" />
+        <option value="$PROJECT_DIR$/src/controllers/test_PDO.php" />
       </list>
     </option>
   </component>
@@ -127,6 +158,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -260,7 +292,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -286,7 +317,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.test_PDO.php">
+    <configuration default="false" name="test_PDO.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Projet Web/src/controllers/test_PDO.php">
+      <method />
+    </configuration>
     <configuration default="true" type="CodeceptionConfigurationType" factoryName="Codeception">
       <PhpTestRunnerSettings />
       <method />
@@ -354,6 +388,14 @@
       <recursive>false</recursive>
       <method />
     </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.test_PDO.php" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.test_PDO.php" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -368,12 +410,21 @@
       <workItem from="1497449713654" duration="2072000" />
       <workItem from="1497510216915" duration="21997000" />
       <workItem from="1497598854509" duration="2261000" />
-      <workItem from="1497878860060" duration="1414000" />
+      <workItem from="1497878860060" duration="4006000" />
+      <workItem from="1497942625735" duration="3548000" />
     </task>
+    <task id="LOCAL-00001" summary="mise en place d'une connexion avec pdo">
+      <created>1497881292313</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1497881292313</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27744000" />
+    <option name="totallyTimeSpent" value="33884000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -388,8 +439,8 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18869936" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19083156" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -416,11 +467,57 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="mise en place d'une connexion avec pdo" />
+    <option name="LAST_COMMIT_MESSAGE" value="mise en place d'une connexion avec pdo" />
+  </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Config/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web/Index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="43" lean-forward="false" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/framework/mvc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="1" lean-forward="true" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controllers/test_PDO.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <marker date="1497945498700" expanded="true" signature="91:114" ph="SELECT * FRO... personnes" />
+            <marker date="1497945498700" expanded="true" signature="629:684" ph="delete from " />
+            <marker date="1497945498700" expanded="true" signature="836:875" ph="delete from " />
+            <marker date="1497945498700" expanded="true" signature="1021:1060" ph="delete from " />
+            <marker date="1497945498700" expanded="true" signature="1195:1236" ph="delete from " />
+            <marker date="1497945498700" expanded="true" signature="1628:1672" ph="select * fro... personnes" />
+            <marker date="1497945498700" expanded="true" signature="1628:1675" ph="select * fro... personnes" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/views/quizz.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -441,7 +538,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
           <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -481,7 +577,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="29" column="24" lean-forward="false" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -678,15 +773,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
           <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Config/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -700,8 +786,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/framework/mvc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="583">
+        <state relative-caret-position="646">
           <caret line="38" column="1" lean-forward="true" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Config/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controllers/test_PDO.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="44" column="47" lean-forward="true" selection-start-line="44" selection-start-column="47" selection-end-line="44" selection-end-column="47" />
+          <folding>
+            <marker date="1497945498700" expanded="true" signature="91:114" ph="SELECT * FRO... personnes" />
+            <marker date="1497945498700" expanded="true" signature="629:684" ph="delete from " />
+            <marker date="1497945498700" expanded="true" signature="836:875" ph="delete from " />
+            <marker date="1497945498700" expanded="true" signature="1021:1060" ph="delete from " />
+            <marker date="1497945498700" expanded="true" signature="1195:1236" ph="delete from " />
+            <marker date="1497945498700" expanded="true" signature="1628:1672" ph="select * fro... personnes" />
+            <marker date="1497945498700" expanded="true" signature="1628:1675" ph="select * fro... personnes" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controllers/matieres.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/matieres.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
